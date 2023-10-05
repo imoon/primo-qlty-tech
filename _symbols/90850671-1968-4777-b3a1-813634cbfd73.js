@@ -3158,7 +3158,7 @@ function create_each_block_3(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "nav-item svelte-bhl0ji");
+			attr(a, "class", "nav-item svelte-16eukap");
 			attr(a, "href", a_href_value = /*link*/ ctx[11].url);
 		},
 		m(target, anchor) {
@@ -3199,7 +3199,7 @@ function create_each_block_2(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "button svelte-bhl0ji");
+			attr(a, "class", "button svelte-16eukap");
 			attr(a, "href", a_href_value = /*link*/ ctx[11].url);
 		},
 		m(target, anchor) {
@@ -3313,12 +3313,12 @@ function create_if_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(hr, "class", "svelte-bhl0ji");
+			attr(hr, "class", "svelte-16eukap");
 			attr(button, "id", "close");
 			attr(button, "aria-label", "Close Navigation");
-			attr(button, "class", "svelte-bhl0ji");
+			attr(button, "class", "svelte-16eukap");
 			attr(nav, "id", "mobile-nav");
-			attr(nav, "class", "svelte-bhl0ji");
+			attr(nav, "class", "svelte-16eukap");
 		},
 		m(target, anchor) {
 			insert_hydration(target, nav, anchor);
@@ -3477,7 +3477,7 @@ function create_if_block_2(ctx) {
 	let img;
 	let img_src_value;
 	let img_alt_value;
-	let style___size = `${/*logo*/ ctx[1].size}rem`;
+	let style___size = `${/*logo*/ ctx[1].size * 0.75}rem`;
 
 	return {
 		c() {
@@ -3496,7 +3496,7 @@ function create_if_block_2(ctx) {
 			if (!src_url_equal(img.src, img_src_value = /*logo*/ ctx[1].image.url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*logo*/ ctx[1].image.alt);
 			attr(a, "href", "/");
-			attr(a, "class", "logo svelte-bhl0ji");
+			attr(a, "class", "logo svelte-16eukap");
 			set_style(a, "--size", style___size);
 		},
 		m(target, anchor) {
@@ -3512,7 +3512,7 @@ function create_if_block_2(ctx) {
 				attr(img, "alt", img_alt_value);
 			}
 
-			if (dirty & /*logo*/ 2 && style___size !== (style___size = `${/*logo*/ ctx[1].size}rem`)) {
+			if (dirty & /*logo*/ 2 && style___size !== (style___size = `${/*logo*/ ctx[1].size * 0.75}rem`)) {
 				set_style(a, "--size", style___size);
 			}
 		},
@@ -3544,7 +3544,7 @@ function create_each_block_1(ctx) {
 		},
 		h() {
 			attr(a, "href", a_href_value = /*link*/ ctx[11].url);
-			attr(a, "class", "svelte-bhl0ji");
+			attr(a, "class", "svelte-16eukap");
 		},
 		m(target, anchor) {
 			insert_hydration(target, a, anchor);
@@ -3585,7 +3585,7 @@ function create_each_block(ctx) {
 		},
 		h() {
 			attr(a, "href", a_href_value = /*link*/ ctx[11].url);
-			attr(a, "class", "button svelte-bhl0ji");
+			attr(a, "class", "button svelte-16eukap");
 		},
 		m(target, anchor) {
 			insert_hydration(target, a, anchor);
@@ -3623,7 +3623,7 @@ function create_if_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span, "class", "subheading svelte-bhl0ji");
+			attr(span, "class", "subheading svelte-16eukap");
 		},
 		m(target, anchor) {
 			insert_hydration(target, span, anchor);
@@ -3781,20 +3781,20 @@ function create_fragment(ctx) {
 		},
 		h() {
 			attr(a, "href", "/");
-			attr(a, "class", "logo svelte-bhl0ji");
+			attr(a, "class", "logo svelte-16eukap");
 			set_style(a, "--size", style___size);
 			attr(button, "id", "open");
 			attr(button, "aria-label", "Open mobile navigation");
-			attr(button, "class", "svelte-bhl0ji");
-			attr(nav, "class", "svelte-bhl0ji");
-			attr(div0, "class", "desktop-nav svelte-bhl0ji");
-			attr(div1, "class", "section-container svelte-bhl0ji");
-			attr(h1, "class", "heading svelte-bhl0ji");
-			attr(div2, "class", "heading-group svelte-bhl0ji");
+			attr(button, "class", "svelte-16eukap");
+			attr(nav, "class", "svelte-16eukap");
+			attr(div0, "class", "desktop-nav svelte-16eukap");
+			attr(div1, "class", "section-container svelte-16eukap");
+			attr(h1, "class", "heading svelte-16eukap");
+			attr(div2, "class", "heading-group svelte-16eukap");
 			set_style(header, "background-image", "url('" + /*background*/ ctx[4].url + "')");
 			attr(header, "role", "img");
 			attr(header, "aria-label", header_aria_label_value = /*background*/ ctx[4].alt);
-			attr(header, "class", "svelte-bhl0ji");
+			attr(header, "class", "svelte-16eukap");
 		},
 		m(target, anchor) {
 			insert_hydration(target, header, anchor);
